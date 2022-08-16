@@ -2,4 +2,5 @@
 # vim: ft=sls
 
 include:
+  - .user
   - .file

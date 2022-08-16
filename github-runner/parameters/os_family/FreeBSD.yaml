@@ -12,5 +12,7 @@
 # values: {}
 ---
 values:
-  rootgroup: wheel
+  pkg:
+    os_tag: linux
+    archive: tar.gz
 ...

@@ -2,7 +2,7 @@
 # vim: ft=yaml
 #
 # Set values specific to:
-#   salt['config.get']('os_family') == OpenBSD.
+#   salt['config.get']('os_family') == Windows.
 #
 # You just need to add the key:values for this `os_family` that differ
 # from `defaults.yaml` + `<osarch>.yaml`.
@@ -12,5 +12,7 @@
 # values: {}
 ---
 values:
-  rootgroup: wheel
+  pkg:
+    os_tag: win
+    archive: zip
 ...

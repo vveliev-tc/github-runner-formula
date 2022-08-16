@@ -5,14 +5,14 @@
 ---
 values:
   pkg:
-    name: github-runner
-  rootgroup: root
-  config: '/etc/github-runner'
+    name: actions-runner  
+    version: 2.263.0
+    checksums: a80c1ab58be3cd4920ac2e51948723af33c2248b434a8a20bd9b3891ca4000b6
+    base_url: 'https://github.com/actions/runner/releases/download'
+  usergroup: github-runner
+  username: github-runner
   service:
     name: github-runner
   subcomponent:
     config: '/etc/github-runner-subcomponent-formula.conf'
-  # Just here for testing
-  added_in_defaults: defaults_value
-  winner: defaults
 ...

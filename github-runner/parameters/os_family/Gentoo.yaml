@@ -13,5 +13,6 @@
 ---
 values:
   pkg:
-    name: github-runner-gentoo
+    os_tag: linux
+    archive: tar.gz
 ...

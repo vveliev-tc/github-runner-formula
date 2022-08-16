@@ -12,5 +12,5 @@
 # values: {}
 ---
 values:
-  arch: amd64
+  arch: x64
 ...

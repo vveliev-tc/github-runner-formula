@@ -2,7 +2,7 @@
 # vim: ft=yaml
 #
 # Set values specific to:
-#   salt['config.get']('os_family') == RedHat.
+#   salt['config.get']('os_family') == MacOS.
 #
 # You just need to add the key:values for this `os_family` that differ
 # from `defaults.yaml` + `<osarch>.yaml`.
@@ -13,6 +13,6 @@
 ---
 values:
   pkg:
-    os_tag: linux
+    os_tag: osx
     archive: tar.gz
 ...
